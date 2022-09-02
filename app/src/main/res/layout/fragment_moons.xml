@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".MainFragments.MoonsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="Solar Moons"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There are more than 194 moons of the various planets, dwarf planets in the solar system. The planets Mercury and Venus do not have any moons and neither does the dwarf planet Ceres. Find out the number of moons each planet has and their names below."
+            android:textSize="18dp" />
+
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Moon"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/moon_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/the_moon" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phobos"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/phobos_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/phobos" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deimos"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/deimos_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/deimos" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Io"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/io_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/io" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Europa"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/europa_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/europa" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganymede"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/ganymede_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ganymede" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Callisto"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/callisto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/callisto" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encladus"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/encladus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/encladus" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rhea"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/rhea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/rhea" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titan"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/titan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/titan" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Iapetus"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/iapetus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/iapetus" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Miranda"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/miranda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/miranda" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titania"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/titania"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/titania" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triton"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/triton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/triton" />
+
+        <View style="@style/Divider" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charon"
+            android:textSize="24dp" />
+
+        <ImageButton
+            android:id="@+id/charon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/charon" />
+
+        <View style="@style/Divider" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

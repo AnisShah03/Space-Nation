@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_space">
+
+    <fragment
+        android:id="@+id/nav_space"
+        android:name="com.world.spacenation.MainFragments.HomeFragment"
+        android:label="Space"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_planets"
+        android:name="com.world.spacenation.MainFragments.PlanetFragment"
+        android:label="The Planets"
+        tools:layout="@layout/fragment_planet" >
+        <action
+            android:id="@+id/action_nav_planets_to_nav_space"
+            app:destination="@id/nav_space" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_solar"
+        android:name="com.world.spacenation.MainFragments.SolarFragment"
+        android:label="Solar System"
+        tools:layout="@layout/fragment_solar" >
+        <action
+            android:id="@+id/action_nav_solar_to_nav_space"
+            app:destination="@id/nav_space" />
+    </fragment>
+
+     <fragment
+        android:id="@+id/nav_moon"
+        android:name="com.world.spacenation.MainFragments.MoonsFragment"
+        android:label="Moons"
+        tools:layout="@layout/fragment_moons" >
+         <action
+             android:id="@+id/action_nav_moon_to_nav_space"
+             app:destination="@id/nav_space" />
+     </fragment>
+
+  <fragment
+        android:id="@+id/nav_dwarf_planets"
+        android:name="com.world.spacenation.MainFragments.DwarfPlanetsFragment"
+        android:label="Dwarf Planets"
+        tools:layout="@layout/fragment_dwarf_planets" >
+      <action
+          android:id="@+id/action_nav_dwarf_planets_to_nav_space"
+          app:destination="@id/nav_space" />
+  </fragment>
+
+  <fragment
+        android:id="@+id/nav_galaxies"
+        android:name="com.world.spacenation.MainFragments.GalaxiesFragment"
+        android:label="Galaxies"
+        tools:layout="@layout/fragment_galaxies" >
+      <action
+          android:id="@+id/action_nav_galaxies_to_nav_space"
+          app:destination="@id/nav_space" />
+  </fragment>
+
+
+  <fragment
+        android:id="@+id/nav_videos"
+        android:name="com.world.spacenation.MainFragments.VideoFragment"
+        android:label="Videos"
+        tools:layout="@layout/fragment_video" >
+      <action
+          android:id="@+id/action_nav_galaxies_to_nav_space"
+          app:destination="@id/nav_space" />
+  </fragment>
+
+
+
+</navigation>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Moon.IoMoonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Io Moon"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/io" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Facts about Io Moon"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Io is the innermost and the second smallest of the four Galilean moons. It was discovered, along with Europa, Ganymede and Callisto by Galileo Galilei in 1610."
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Io has more than 400 active volcanoes on its surface. They make this little moon the most actively volcanic world in the solar system."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. The volcanism on Io is due to tidal heating, as the moon is stretched by Jupiter’s strong gravitational pull and by the lesser gravitational effects of the other satellites.The volcanism on Io is due to tidal heating, as the moon is stretched by Jupiter’s strong gravitational pull and by the lesser gravitational effects of the other satellites."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. The volcanoes of Io are constantly erupting, creating plumes that rise above the surface and lakes that cover vast areas of the landscape."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. Io has a very thin atmosphere that contains mostly sulfur dioxide (emitted from its volcanoes). Gases from the atmosphere escape to space at the rate of about a ton per second. Some of the material becomes part of a ring of charged particles around Jupiter called the Io plasma torus."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. The volcanic plumes of Io rise up as high as 200 km, showering the terrain with sulfur, sulfur dioxide particles, and rocky ash."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Io has a number of mountains, some of which rise up as high as Mount Everest on Earth. The average height of Io’s peaks are around 6 km."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. Io is made mostly of silicate rocks, and its surface is painted with sulfur particles from the volcanoes and frosts that are created as the atmospheric gases freeze out and fall to the ground."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. Robotic missions to Io could study its volcanism in closer detail. No human missions are planned as yet, due to the extreme radiation environment and highly toxic atmosphere and surface."
+            android:textSize="16dp" />
+
+
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/io_size" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

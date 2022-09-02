@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.MeteoriteFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meteorite"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/meteorite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="What is a Meteorite?
+"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Earth is bombarded with millions of tons of space material each day. Most of the objects vaporize in our atmosphere, but some of the larger pieces (from pebbles to boulder-sized rocks) actually fall to the ground. Most of the objects come from asteroids, which are objects made of various types of rock and have existed since the origin of the solar system.  A small rocky or metallic chunk of material that travels through space is called a meteoroid. Very small meteoroids (the size of dust) are often referred to as micrometeoroids or space dust. These fragments may also be leftover comet debris, or were ejected in collisions between other solar system bodies such as the Moon or Mars.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="As a meteoroid travels through our atmosphere, it is heated by friction. That causes it to glow, and if this happens at night, we see a long streak of light known as a meteor.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facts about Meteorite"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Millions of meteoroids travel through Earth’s atmosphere each day.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. When a meteor encounters our atmosphere and is vaporized, it leaves behind a trail. That “burning” meteoroid is called a meteor.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. The appearance of a number of meteors occurring in the same part of the sky over a period of time is called “meteor shower”.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. If the object survives the trip and falls to Earth’s surface, it is known as a meteorite. Many of these fall into the ocean (since about 71% of Earth’s surface is covered by water). The rest fall on land, where they await discovery by meteorite hunters.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. Many meteor showers are associated with comets, which leave behind debris as they orbit through the solar system.  Showers occur when Earth’s orbit crosses the path of a comet’s orbit.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Most meteorites are one of three types: stony, stony-iron, or iron. These compositions tell us where the meteoroid existed in its parent body.  An iron or stony iron was close to the core of an asteroid, while a stony object was closer to the surface.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Types of Meteorites"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Meteorites are fragments of asteroids that fall to ground on Earth. Scientists classify these objects according to their chemical makeup (what chemicals exist in them), their isotopic compositions (the types of each chemical element they contain), and their mineralogy (the minerals they contain).
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Beyond those classifications, meteorites are also sorted as stony (made of rocky material), metallic (whether they contain iron), and mixtures (stony-irons).  Those three classes can be divided even further. For example, pallasite meteorites are a class of stony-iron meteorites that are made mostly of nickel and iron, but also contain olivine crystals (a commonly found crystal on Earth).
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Famous Meteorites
+"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Over the course of Earth’s history, many meteorites (large and small) have fallen to our planet’s surface. The most famous are the Allende, the Fukang, Hoba, and the Willamette Meteorite.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Allende Meteorite fell to Earth in a fireball on February 8, 1969.  It was originally about the size of a car, and pieces were strewn across the Mexican state of Chihuahua. It has become one of the most-studied meteorites of all time, and is an excellent example of a carbonaceous chondrite. These types of meteorites date back to the formation of the Sun and Planets, and are among the most primitive solar system materials around. They are made mostly of silicates, oxides, sulfides, water, organic compounds and various minerals.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Fukang Meteorite is one of the best examples of a pallasite, a type of stony-iron meteorite. Because of its large gem-like olivine crystals, pieces of this meteorite are much in demand by collectors.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Hoba Meteorite was found in Namibia (in Africa). It is a very large, 60-tone rock, which makes it nearly impossible to move. It has been declared a National Monument in Namibia, and is one of the rare meteorites that is also part of a tourist site. Meteorite experts think Hoban fell about 80,000 years ago.  It is mostly iron, with some nickel and traces of other elements.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Willamette Meteorite weighs 15.5 tons and is the largest ever found in the United States.
+
+"
+            android:textSize="16dp" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Moon.CharonMoonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charon Moon"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/charon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Facts about Charon Moon"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Charon is the largest and innermost moon of Pluto. It was discovered in 1978 by astronomer James Christy and is nearly 1/8 the mass of Pluto. It orbits a common centre of gravity with Pluto, and the two worlds are tidally locked together as they orbit."
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Charon was named for the Greek mythological figure Charon, the ferryman to Styx. It has two different pronunciations: “SHARE-on”, in honour of the discoverer’s wife’s name (used) NASA and the members of the New Horizons mission), and “CARE-on”, for those who prefer the Greek pronunciation."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. If it were not orbiting Pluto, Charon would be a dwarf planet in its own right."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. Charon has a frigid surface, covered with methane and nitrogen ice, and possibly some water ice."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. Charon MAY have ‘ice volcanoes’. Observations made by ground-based observers at the Gemini Observatory in Hawaii determined that Charon MAY have ice-particle geysers, a form of cryovolcanism."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. Pluto and Charon have never been visited by a spacecraft. Although both have been observed by Hubble Space Telescope as well as ground-based observatories. The New Horizons mission was sent to fly past Pluto and Charon and gather information and images about these worlds."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Charon’s origin is still not completely understood. One theory suggests that Charon was created when a neighbouring Kuiper Belt object collided with Pluto. That destroyed the impactor, sending chunks of debris into orbit around Pluto. Eventually the chunks reassembled themselves to create Charon. Another idea suggests that infant Pluto and Charon collided, but did not break apart. Instead they went into orbit around each other."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. Charon has a canyon that is 7 to 9 km deep. For comparison Mount Everest is 8.8 km high. Other extensive cliffs and troughs stretching around 1,000 km have also been observed on Charon’s surface."
+            android:textSize="16dp" />
+
+
+
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/charon_size" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

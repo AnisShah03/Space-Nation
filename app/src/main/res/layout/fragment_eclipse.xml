@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.EclipseFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solar Eclipse"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/eclipse" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="A solar eclipse is a natural event that takes place on Earth when the Moon moves in its orbit between Earth and the Sun (this is also known as an occultation). It happens at New Moon, when the Sun and Moon are in conjunction with each other. If the Moon was only slightly closer to Earth, and orbited in the same plane and its orbit was circular, we would see eclipses each month. The lunar orbit is elliptical and tilted with respect to Earth’s orbit, so we can only see up to 5 eclipses per year. Depending on the geometry of the Sun, Moon and Earth, the Sun can be totally blocked, or it can be partially blocked."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="During an eclipse, the Moon’s shadow (which is divided into two parts: the dark umbra and the lighter penumbra) moves across Earth’s surface. Safety note: do NOT ever look at the Sun directly during an eclipse unless it is during a total solar eclipse. The bright light of the Sun can damage your eyes very quickly.
+
+"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facts about Solar Eclipses"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Depending on the geometry of the Sun, Moon, and Earth, there can be between 2 and 5 solar eclipses each year.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Totality occurs when the Moon completely obscures Sun so only the solar corona is showing.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. A total solar eclipse can happen once every 1-2 years. This makes them very rare events.s.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. The longest a total solar eclipse can last is 7.5 minutes.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. The width of the path of totality is usually about 160 km across and can sweep across an area of Earth’s surface about 10,000 miles long.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Almost identical eclipses occur after 18 years and 11 days. This period of 223 synodic months is called a saros.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. During a total solar eclipse, conditions in the path of totality can change quickly. Air temperatures drop and the immediate area becomes dark.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. If any planets are in the sky at the time of a total solar eclipse, they can be seen as points of light.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Solar Eclipse Types "
+            android:textSize="20dp" />
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/eclipse_types" />
+
+        ////////////////
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="When is the next Solar Eclipse?"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Eclipses can occur each year, and they are predictable. There are several places online where you can get up-to-date calendars for all the types of solar eclipses.
+
+ "
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. mreclipse.com – MrEclipse.com is the page of retired NASA astrophysicist Fred Espenak. He provides a wealth of information about both solar and lunar eclipses.
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. eclipse.gsfc.nasa.gov – The NASA Eclipse Web Site is the official NASA site for eclipse information.
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. timeanddate.com – Timeanddate is a reliable source of eclipse calendars for both solar and lunar eclipses.
+"
+            android:textSize="16dp" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

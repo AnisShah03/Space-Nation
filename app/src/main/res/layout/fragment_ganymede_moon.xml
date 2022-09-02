@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Moon.GanymedeMoonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganymede Moon"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/ganymede" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Facts about Ganymede Moon"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ganymede is Jupiter’s largest moon and also the largest moon in the solar system. Ganymede was discovered in 1610 by astronomer Galileo Galilei and is named for the mythical Greek son of a King who was carried to the sky by Zeus posing as an eagle."
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Ganymede is the largest moon in the solar system, and is larger than the planet Mercury. If it were not orbiting as Jupiter’s largest moon, it could be considered a dwarf planet."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Ganymede is the only moon in the solar system known to have a substantial magnetosphere. That implies there is something inside helping to generate a strong magnetic field."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. Like Europa, Ganymede is thought to have a subsurface ocean, overlying a liquid iron and nickel core. That core is what helps generate the magnetic field."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. The surface of Ganymede is icy and covered with two main types of landscape: young, lighter regions and darker, older and cratered terrain. The dark areas appear to contain clays and organic materials."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. Ganymede was likely formed in place around the infant Jupiter in the early solar system. Several smaller worlds likely accreted together to make this moon.    "
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Ganymede has a thin atmosphere that appears to contain oxygen. This was confirmed by Hubble Space Telescope observations. The oxygen is likely freed as water ice on the surface is broken apart into hydrogen and oxygen by solar radiation."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. The first mission to explore Ganymede up close was Pioneer 10, followed by the Voyager missions, Galileo, and New Horizons."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. Several missions to explore Ganymede in more detail have been suggested, but most have been cancelled or are still on the drawing boards."
+            android:textSize="16dp" />
+
+
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ganymede_size" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

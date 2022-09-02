@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Moon.EuropaMoonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Europa Moon"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/europa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Facts about Europa Moon"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Europa is the smallest of Jupiter’s Galilean moons and the second closest, however it is still the sixth largest moon in the solar system. Europa is known for being one of the first worlds a subsurface water ocean was hypothesised for."
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Europa is named after a woman in Greek mythology who was the daughter of a king. She was supposedly one of Zeus’ many lovers and was made the queen of Crete. It was discovered in 1610 by Galileo Galilei."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Europa is nearly the same size as Earth’s Moon. It is tidally locked to Jupiter in its orbit and spins faster on its axis than it orbits. Its orbit is nearly circular."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. As Europa orbits Jupiter, it comes ever so slightly closer to the planet. That increases the gravitational pull on Europa, and distorts its shape. The same tidal “flexing” heats up Europa’s interior. This may be what is keeping Europa’s interior ocean fluid."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. Because Europa is water-rich and has a warm interior, scientists think it could be hospitable to life."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. There is a magnetic field at Europa, induced through interaction with Jupiter’s massive magnetic field. The existence of a magnetic field means that something beneath the ice is conductive."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Europa has very smooth surface which indicates that water from beneath somehow escapes and freeze smooth. There are bright and dark markings, and a few craters. The largest crater is called Pwyll. Other features are called linae, jumbled lenticulae, and “freckles”. Some may be formed when meltwater released by interior warming."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. Europa has a water ocean underneath its cracked surface, covering a small rocky core. There have also been seen traces of clay-rich minerals. Planetary scientists think that this ocean is mainly salty water, which may be implicated in this moon’s magnetic field."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. The Voyager and Galileo spacecraft each returned detailed images of Europa. Future missions to this watery world include a NASA mission called Europa Clipper, and an ESA mission called Jupiter Icy Moon Explorer (JUICE). These would launch and arrive in the 2020s."
+            android:textSize="16dp" />
+
+
+
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/europa_size" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

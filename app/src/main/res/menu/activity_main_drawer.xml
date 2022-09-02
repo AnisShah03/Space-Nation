@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_space"
+            android:icon="@drawable/space_icon"
+            android:title="Space" />
+        <item
+            android:id="@+id/nav_planets"
+            android:icon="@drawable/planet_icon"
+            android:title="The Planets" />
+        <item
+            android:id="@+id/nav_solar"
+            android:icon="@drawable/solar_icon"
+            android:title="Solar System" />
+        <item
+            android:id="@+id/nav_moon"
+            android:icon="@drawable/moon_icon"
+            android:title="Moons" />
+        <item
+            android:id="@+id/nav_dwarf_planets"
+            android:icon="@drawable/dwarf_icon"
+            android:title="Dwarf Planets" />
+        <item
+            android:id="@+id/nav_galaxies"
+            android:icon="@drawable/galaxy_icon"
+            android:title="Galaxies" />
+
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="Videos" />
+    </group>
+
+
+    <item android:title="Communication"
+
+        android:checkable="false"
+        android:checked="false"/>
+
+    <group android:id="@+id/menu_bottom">
+
+
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@android:drawable/star_big_off"
+            android:title="Rate Or Feedback" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_terms_condition"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Terms &amp; Condition" />
+
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="About Us" />
+    </group>
+
+</menu>

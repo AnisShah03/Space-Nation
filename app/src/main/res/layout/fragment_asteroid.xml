@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.AsteroidFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asteroid"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/asteroid" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="What is an Asteroid?"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Asteroids are small, rocky solar system bodies that populate interplanetary space out to the orbit of Jupiter. There are millions of them, and they are often grouped by their composition. The planetary science community refers to them as minor planets, a general term applied to solar system bodies smaller than moons. Asteroids are mainly made of materials left over from the formation of the inner solar system words. Most of them orbit the Sun between Mars and Jupiter, although there are groups of them that orbit closer. Asteroids come in three composition classes. C-types (chondrites) are made of clay and silicate rocks. S-types are the so-called “stony” asteroids and are made mostly of silicate rocks and nickel-iron mixtures. M-types are metallic nickel-iron. These categories indicate how far from the Sun they formed in the early solar system.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facts about Asteroids"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Asteroids are clues to the formation of the rocky planets of our solar system. The objects we see today are leftover from a time when the solar system formed 4.5 billion years ago. There are a LOT of these leftovers out there. Let’s learn some cool facts about them.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Asteroids aren’t the only things that hit Earth. Each day, more than 100 tons of material from asteroids and comets falls toward Earth. Most of it is destroyed by friction as it passes through our atmosphere. If something DOES hit the ground, it is known as a meteorite.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. An asteroid impact some 65 million years ago contributed to the extinction of the dinosaurs. (It was one of several factors that affected all life on Earth at that time.)
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. A car-sized meteoroid (a piece of asteroid) falls into Earth’s atmosphere about once a year. The result is a beautiful fireball, but the meteoroid usually burns up before reaching the ground.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. Asteroids are rich in precious metals and other metals, as well as water.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Some asteroids are actually blown-out comets. The ices are gone, and all that’s left is the rocky material.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. Some asteroids have moons of their own!
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. Most asteroids orbit the Sun in the Asteroid Belt, which lies between Mars and Jupiter.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Near Earth Asteroids And Impacts"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Earth and the other planets formed as objects in the early system smacked together and made larger worlds. The process of collision and impact continues to this day, although with smaller objects (since all the larger ones became the planets we know).
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Asteroids continue to come close to Earth in their orbits. They are called near-Earth objects (NEOs) or Potentially Hazardous Asteroids (PHAs). If orbital conditions are right, it’s possible that a NEO could crash to Earth’s surface. Depending on the size of the impactor, the damage to our planet (and us) could range from very little to catastrophic. A small incoming object would likely break up in our atmosphere. A larger one could rain very large pieces down on the surface or into the oceans. There are groups of astronomers searching out and mapping the positions of these NEOs in order to predict possible impacts weeks, months, or years in advance. Several organizations are making plans in case something should hit and cause damage. The chances of something hitting Earth are very small, but also depend on the size and orbit of the object.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Famous Asteroids"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The best-known asteroids are 1 Ceres, which is 952 kilometres across, 2 Pallas (with a diameter of 544 kilometres), and 4 Vesta (roughly 580 km across). These are rocky minor planets, and astronomers have observed them since the 1800s. Ceres is a differentiated asteroid. That means it has a rocky core and a icy outer crust. It might have an internal ocean. Pallas has a very irregular shape, and may be what’s left of an early protoplanet. Vesta is very bright and is likely the leftover of a rocky protoplanet."
+            android:textSize="16dp" />
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

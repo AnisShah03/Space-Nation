@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.SunFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="The Sun is the star at the centre of our solar system. It is an almost perfect sphere of super-hot gases whose gravity holds the solar system together. The energy produced by the Sun is essential for life on Earth and is a driving force behind the Earth’s weather.
+
+"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facts about Sun"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. The Sun is all the colours mixed together, this appears white to our eyes.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. The Sun contains 99.86% of the mass in the Solar System.
+The mass of the Sun is approximately 330,000 times greater than that of Earth. It is almost three quarters Hydrogen, whilst most of the remaining mass is Helium."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. The Sun is composed of hydrogen (70%) and Helium (28%).
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. The distance between the Earth and the Sun is an Astronomical Unit (AU)
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. One million Earths could fit inside the Sun.
+A hollow Sun would fit around 960,000 spherical Earths. If squished inside with no wasted space, then around 1,300,000 would fit inside. The Sun’s surface area is 11,990 times that of the Earth’s."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. The Sun is an almost perfect sphere.
+There is a 10-kilometre difference between the Sun’s polar and equatorial diameter. This means it is the closest thing to a perfect sphere that has been observed in nature."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. The Sun will consume the Earth.
+When the Sun has burned all its Hydrogen, it will continue to burn helium for 130 million more years. During this time, it will expand to the point that it will engulf Mercury, Venus, and the Earth. At this stage it will have become a red giant"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="8. The temperature inside the Sun can reach 15 million degrees Celsius.
+Energy is generated at the Sun’s core, by nuclear fusion, as Hydrogen converts to Helium. Hot objects expand, the Sun would explode if it were not for its enormous gravitational force. The temperature on the surface of the Sun is closer to 5,600 degrees Celsius."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9. Light from the Sun takes eight minutes to reach Earth.
+The Sun is an average distance of 150 million kilometres from the Earth. Light travels at 300,000 kilometres per second. Dividing one by the other gives us an approximate time of 500 seconds (or eight minutes and 20 seconds). Although this energy reaches Earth in a few minutes, it will already have taken millions of years to travel from the Sun’s core to its surface."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10. The Sun travels at 220 kilometres per second.
+The Sun is 24,000-26,000 light years from the galactic centre. It takes the Sun 225-250 million years to complete an orbit of the centre of the Milky Way."
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="11. The Sun is middle-aged.
+At around 4.6 billion years old, the Sun has already burned off about half of its store of Hydrogen. It has enough left to continue to burn Hydrogen for approximately 5 billion years. The Sun is currently a type of star known as a Yellow Dwarf."
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="12. The Sun has a very strong magnetic field.
+Magnetic energy released by the Sun during magnetic storms causes solar flares. We see these as sunspots. In sunspots, the magnetic lines twist and they spin, much like a tornado would on Earth."
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10. Sol is the Latin for Sun
+This is where the word “solar” comes from, which is used to describe things that are derived from, related to, or caused by the Sun"
+            android:textSize="16dp" />
+
+
+        /////////////////////////////
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sun_size" />
+
+        <View style="@style/Divider" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/sun_satelites" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

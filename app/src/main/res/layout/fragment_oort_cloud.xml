@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.OortCloudFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oort Cloud"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/oort_cloud" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="The Oort Cloud is a theorised shell of icy objects that lie beyond the Kuiper Belt, as such the facts detailed on this page are hypothetical.
+
+"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facts about Oort Cloud"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. Objects in the Oort Cloud are also referred to as Trans-Neptunian objects. This name also applies to objects in the Kuiper Belt.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Some astronomers theorise that the Sun may have captured Oort Cloud cometary material from the outer disks of other stars that were forming in the same nebula as our star.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. The Oort Cloud is a reserve of cometary nuclei that contain ices dating back to the origin of the solar system.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. The planetoid Sedna, discovered in 2003, is thought to be a member of the inner Oort Cloud.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. Astronomers think that long-period comets (those with orbital periods longer than 200 years) have their origins in the Oort Cloud.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="What is the Oort Cloud?
+"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. The Oort Cloud is an extended shell of icy objects that exist in the outermost reaches of the solar system. It is named after astronomer Jan Oort, who first theorised its existence. The Oort Cloud is roughly spherical, and is thought to be the origin of most of the long-period comets that have been observed.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. This cloud of particles is theorized to be the remains of the disc of material that formed the Sun and planets. Astronomers now refer to those primeval objects as a protoplanetary disk. The most likely theory is that the material now in the Oort Cloud probably formed closer to the young Sun in the earliest epochs of solar system formation. As the planets grew, and in particular as Jupiter coalesced and migrated to its present position, its gravitational influence is thought to have scattered many icy objects out to their present position in the Oort cloud.
+
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. The Oort Cloud is very distant from the Sun and it can be disrupted by the nearby passage of a star, nebula, or by actions in the disk of the Milky Way. Those actions knock cometary nuclei out of their orbits, and send them on a headlong rush toward the Sun.
+
+"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Oort Cloud Location
+"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The inner limits of the Oort Cloud begin at about 2,000 AU from the Sun. The cloud itself stretches out almost a quarter of the way to the nearest star, Proxima Centauri. It is spherically shaped and consists of an outer cloud and a torus (doughnut-shaped) inner cloud.
+
+"
+            android:textSize="16dp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "430883955793",
+    "project_id": "space-nation-bae20",
+    "storage_bucket": "space-nation-bae20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430883955793:android:9bb8f229afde42632fc470",
+        "android_client_info": {
+          "package_name": "com.world.spacenation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "430883955793-lh1daoqh2gu5ktqtuo0f2ok9g2oqaln1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgICBal2WcRRUuNw4A6vsX7Me0KTY5rYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "430883955793-lh1daoqh2gu5ktqtuo0f2ok9g2oqaln1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

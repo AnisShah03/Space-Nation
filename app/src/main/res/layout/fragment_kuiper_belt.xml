@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/space_bg"
+    tools:context=".Solar.KuiperBeltFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kuiper Belt"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/kuiper_belt" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Facts about Kuiper Belt"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1. The Kuiper Belt could contain hundreds of thousands of icy bodies that range in size from small chunks of ice to worldlets larger than 100 kilometres across.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="2. Astronomers have tracked most short-period comets from their origins in the Kuiper Belt. These are comets with orbital periods of 200 years or less.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="3. There could be more than a trillion comet nuclei in the main body of the Kuiper Belt.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="4. The largest Kuiper Belt Objects are Pluto, Quaoar, Makemake, Haumea, Ixion, and Varuna. These are often also referred to as Trans-Neptunian Objects (TNOs).
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="5. The first mission to the Kuiper Belt and beyond will fly by Pluto in July 2015. It’s called New Horizons and will survey Pluto, Charon and the other moons before heading out to study other Kuiper Belt Objects in the future.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6. Astronomers have found structures similar to our Kuiper Belt around at least nine other stars. Hubble Space Telescope imaged discs around the stars HD 138664 in the constellation Lupus, and HD 53143 in the constellation Carina.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="7. The ices in the Kuiper Belt date back to the formation of the solar system. They contain clues to conditions in the early solar nebula.
+"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="What is the Kuiper Belt?"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="The Kuiper Belt (sometimes referred to as the Kuiper-Edgeworth Belt) is an area of the outer solar system that is estimated to stretch across 20 astronomical units (AU) of space. It contains small solar system bodies made mostly of ices. The ices are frozen volatiles (gases) such as methane, ammonia, nitrogen and water. It also is home to the known dwarf planets Pluto, Haumea and Makemake.
+
+  The Kuiper-Edgeworth Belt is named for the astronomers Gerard Kuiper, who theorized about a disk of material in the outer reaches of the solar system, and Kenneth Edgeworth, who had the idea that the outer solar system contained a number of small bodies, perhaps left over from the formation of the Sun and planets. This region of space is cold enough to support the existence of volatiles more easily than areas closer to the Sun.
+
+"
+            android:textSize="16dp" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-2279958907250111/5790639618" />
+
+
+    </LinearLayout>
+</ScrollView>
